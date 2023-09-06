@@ -1,0 +1,16 @@
+# conda env create --file environment.yml
+name: sysdesign
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - ipykernel
+  - psycopg2
+  - ipython-sql
+  - pandas
+  - matplotlib
+  - dnspython
+  - pip
+  - pip:
+    - pymongo[srv]
